@@ -1,0 +1,24 @@
+h1
+{
+	padding-top:25px;
+	text-align:center;
+	color:white;
+	margin-top:0px;
+	font-size:50px;
+	font-family:Cursive;
+}
+
+body
+{
+	margin-top:0px;
+	margin-left:0px;
+	margin-bottom:0px;
+	margin-right:0px
+}
+
+div
+{
+	background-color:black;
+	padding-top:0px;
+	height:100px;
+}
