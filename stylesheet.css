@@ -4,11 +4,42 @@ h1
 	text-align:center;
 	color:white;
 	margin-top:0px;
-	/*margin-bottom:200px;*/
+	margin-bottom:200px;
 	font-size:50px;
 	font-family:"Lucida Console", Monaco, monospace;
 }
+div.menu
+{
+	height:100px;
+}
+div.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	height:100px;
+}
 
+div.menu li {
+	display: flex;
+	align-items:center;
+    float: left;
+	height:0 auto;
+}
+
+div.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+div.menu li a:hover {
+    background-color: #111;
+}
 body
 {
 	background-image:url("space.jpg");
@@ -20,21 +51,23 @@ body
 
 #head
 {
+	
 	background-color:black;
 	padding-top:0px;
 	height:100px;
 }
-#footer
+
+div.footer 
 {
 	display: flex;
 	align-items:center;
 	background-color:grey;
 	height:100px;
 }
+
 #github_png
 {
 	padding:10px;
-	margin:0;
 	width:50px;
 	height:auto;
 }
