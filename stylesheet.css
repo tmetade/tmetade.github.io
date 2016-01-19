@@ -1,6 +1,7 @@
 h1
 {
-	padding-top:20px;
+	padding:10px;
+	padding-left:30px;
 	text-align:center;
 	color:white;
 	margin-top:0px;
@@ -59,10 +60,13 @@ body
 
 div.footer 
 {
+	position:absolute;
+	bottom:0;
 	display: flex;
 	align-items:center;
 	background-color:grey;
 	height:100px;
+	width:100%;
 }
 
 #github_png
