@@ -18,7 +18,7 @@ div.menu ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
 	height:50px;
 }
 
@@ -39,7 +39,7 @@ div.menu li a {
 
 /* Change the link color to #111 (black) on hover */
 div.menu li a:hover {
-    background-color: #111;
+    background-color: #333;
 	height:50px;
 }
 body
@@ -49,39 +49,73 @@ body
 	margin-top:0px;
 	margin-left:0px;
 	margin-bottom:0px;
-	margin-right:0px
+	margin-right:0px;
+	text-align:center;
+}
+
+div.aboutMe
+{
+	background-color: #333;
+	width:75%;
+	height:100%;
+	display:inline-block;
+}
+
+div.aboutMe p
+{
+	text-align:center;
+	padding:30px;
+	font-size:250px;
+	color:white;
 }
 
 
 
-div.footer 
+#footer 
 {
-	position:absolute;
+	position:relative;
 	bottom:0;
+	z-index:10;
 	display: flex;
 	align-items:center;
 	background-color:grey;
-	height:50px;
+	height:125px;
 	width:100%;
+}
+
+div.info
+{
+	padding:30px;
+}
+
+#footer_contact
+{
+	font-weight:bold;
+	font-size:20px;
 }
 
 #github_png
 {
 	padding:10px;
-	width:30px;
+	width:75px;
 	height:auto;
 }
 
 #facebook_png
 {
 	padding:10px;
-	width:30px;
+	width:75px;
 	height:auto;
 }
 
 #linkedin_png
 {
 	padding:10px;
-	width:30px;
+	width:75px;
 	height:auto;
+}
+
+table
+{
+	width:78%;
 }
