@@ -5,13 +5,13 @@ h1
 	text-align:center;
 	color:white;
 	margin-top:0px;
-	margin-bottom:200px;
-	font-size:50px;
+	/*margin-bottom:200px;*/
+	font-size:25px;
 	font-family:"Lucida Console", Monaco, monospace;
 }
 div.menu
 {
-	height:100px;
+	height:75px;
 }
 div.menu ul {
     list-style-type: none;
@@ -19,7 +19,7 @@ div.menu ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-	height:100px;
+	height:50px;
 }
 
 div.menu li {
@@ -40,23 +40,19 @@ div.menu li a {
 /* Change the link color to #111 (black) on hover */
 div.menu li a:hover {
     background-color: #111;
+	height:50px;
 }
 body
 {
 	background-image:url("space.jpg");
+	background-size:cover;
 	margin-top:0px;
 	margin-left:0px;
 	margin-bottom:0px;
 	margin-right:0px
 }
 
-#head
-{
-	
-	background-color:black;
-	padding-top:0px;
-	height:100px;
-}
+
 
 div.footer 
 {
@@ -65,27 +61,27 @@ div.footer
 	display: flex;
 	align-items:center;
 	background-color:grey;
-	height:100px;
+	height:50px;
 	width:100%;
 }
 
 #github_png
 {
 	padding:10px;
-	width:50px;
+	width:30px;
 	height:auto;
 }
 
 #facebook_png
 {
 	padding:10px;
-	width:50px;
+	width:30px;
 	height:auto;
 }
 
 #linkedin_png
 {
 	padding:10px;
-	width:50px;
+	width:30px;
 	height:auto;
 }
