@@ -71,6 +71,11 @@ div.aboutMe p
 	color:white;
 }
 
+#content
+{
+	font-size:200px;
+	background-color:pink;
+}
 
 
 #footer 
