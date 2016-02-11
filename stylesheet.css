@@ -3,9 +3,8 @@
 	position:fixed;
 	width:100%;
 	top:0;
+	padding-bottom: 10px;
 }
-
-
 h1
 {
 	padding:10px;
@@ -20,7 +19,8 @@ div.menu
 {
 	height:75px;
 }
-div.menu ul {
+div.menu ul 
+{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -59,45 +59,53 @@ body
 	background-image:url("space.jpg");
 	background-size:cover;
 	background-attachment:fixed;
-	
 }
-
-div.aboutMe
-{
-	background-color: #333;
-	width:75%;
-	height:100%;
-	display:inline-block;
-}
-
-div.aboutMe p
-{
-	text-align:center;
-	padding:30px;
-	font-size:250px;
-	color:white;
-}
-
 #content
 {
-	font-size:200px;
-	background-color:pink;
+	padding:20px;
+}
+#aboutMe
+{
+	background-color: rgba(138,144,145,0.5);
+	margin:50px;
+}
+#aboutMe table
+{
+width:100%;
+}
+#aboutText
+{
+color:white;
+text-align: center;
+vertical-align: middle; 
+width:100%;
+}
+#aboutText p
+{
+margin:10px;
+}
+#aboutImg
+{
+	/*position:relative;*/
+	width:50%;
+}
+#aboutImg img 
+{
+	width:500px;
+	height:auto;
 }
 
-#content p
+#aboutText
 {
-	margin:0px;
-padding:0px;
+	text-align: center;
 }
- 
 
 #footer 
 {
-	position:absolute;
+	position:relative;
 	bottom:0px;
 	z-index:10;
 	display: flex;
-	align-items:center;
 	background-color:grey;
 	height:125px;
 	width:100%;
