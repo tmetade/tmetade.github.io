@@ -102,7 +102,7 @@ margin:10px;
 
 #footer 
 {
-	position:relative;
+	position:absolute;
 	bottom:0px;
 	z-index:10;
 	display: flex;
