@@ -53,10 +53,10 @@ body
 {
 	margin-top:0px;
 	margin-left:0px;
-	margin-bottom:0px;
+	margin-bottom:115px;
 	margin-right:0px;
 	text-align:center;
-	background-image:url("space.jpg");
+	background-image:url("Images/space.jpg");
 	background-size:cover;
 	background-attachment:fixed;
 }
@@ -100,17 +100,21 @@ margin:10px;
 	text-align: center;
 }
 
+#experience
+{
+	background-color: pink;
+}
+
 #footer 
 {
-	position:absolute;
+	position:fixed;
 	bottom:0px;
 	z-index:10;
 	display: flex;
 	background-color:grey;
-	height:125px;
+	height:115px;
 	width:100%;
 }
-
 
 #footer_contact
 {
