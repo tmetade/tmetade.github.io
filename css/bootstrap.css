@@ -1097,7 +1097,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #6b0172;
   text-decoration: none;
 }
 a:hover,
@@ -1337,7 +1337,7 @@ mark,
   color: #777;
 }
 .text-primary {
-  color: #337ab7;
+  color: #6b0172;
 }
 a.text-primary:hover,
 a.text-primary:focus {
@@ -1373,7 +1373,7 @@ a.text-danger:focus {
 }
 .bg-primary {
   color: #fff;
-  background-color: #337ab7;
+  background-color: #6b0172;
 }
 a.bg-primary:hover,
 a.bg-primary:focus {
