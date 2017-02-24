@@ -222,6 +222,10 @@ hr.small {
     margin-bottom: 30px;
 }
 
+.img-norm{
+    margin: 0 auto;
+}
+
 .img-projects {
     margin: 0 auto;
 }
