@@ -226,6 +226,14 @@ hr.small {
     margin: 0 auto;
 }
 
+.img-avatar{
+    margin: 0 auto;
+    border: 2px solid #6b0172;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+}
+
 .img-projects {
     margin: 0 auto;
 }
