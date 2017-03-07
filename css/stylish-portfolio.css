@@ -195,8 +195,21 @@ hr.small {
 }
 
 .experience-item {
+    width:100%;
+    height: 100%;
     margin-bottom: 30px;
 
+}
+
+.experience-item img{
+    width:  auto;
+    height: 100px;
+}
+
+.psc-img{
+    width: 150px;
+    height: auto;
+    color:yellow;
 }
 
 /* Callout */
@@ -225,6 +238,7 @@ hr.small {
 
 .img-norm{
     margin: 0 auto;
+    width: 500px;
 }
 
 .img-avatar{
