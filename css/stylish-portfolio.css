@@ -195,21 +195,38 @@ hr.small {
 }
 
 .experience-item {
-    width:100%;
+    width: 100%;
     height: 100%;
     margin-bottom: 30px;
-
 }
 
 .experience-item img{
-    width:  auto;
+    width: auto;
     height: 100px;
 }
 
-.psc-img{
-    width: 150px;
-    height: auto;
-    color:yellow;
+.img-norm{
+    height: 200px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#youi-img{
+    width: auto;
+    height: 150px;
+}
+
+#psc-img{
+    width: auto;
+    height: 65px;
+    top:50%;
+}
+
+#DND-img{
+    width: auto;
+    height: 200px;
 }
 
 /* Callout */
@@ -234,11 +251,6 @@ hr.small {
 
 .projects-item {
     margin-bottom: 30px;
-}
-
-.img-norm{
-    margin: 0 auto;
-    width: 500px;
 }
 
 .img-avatar{
