@@ -230,6 +230,26 @@ hr.small {
     height: 200px;
 }
 
+#footy-img{
+    width: auto;
+    height: 150px;
+}
+
+#movie-img{
+    width: auto;
+    height: 150px;
+}
+
+#uGo-img{
+    width: auto;
+    height: 150px;
+}
+
+#keyboard-img{
+    width: auto;
+    height: 150px;
+}
+
 /* Callout */
 
 .callout {
