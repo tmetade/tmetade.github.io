@@ -200,6 +200,12 @@ hr.small {
     margin-bottom: 30px;
 }
 
+.experience-item h3{
+    width: auto;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
 .img-norm{
     height: 200px;
     width: auto;
