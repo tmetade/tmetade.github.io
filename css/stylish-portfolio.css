@@ -203,7 +203,6 @@ hr.small {
 .experience-item h3{
     width: auto;
     height: 50px;
-    margin-bottom: 30px;
 }
 
 .img-norm{
@@ -212,6 +211,11 @@ hr.small {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#fnp-img{
+    width: auto;
+    height: 150px;
 }
 
 #youi-img{
