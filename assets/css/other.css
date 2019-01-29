@@ -1,0 +1,36 @@
+.project{
+	text-align: center;
+	padding:10px;
+}
+
+.project_image{
+	border-radius: 5px;
+	border: 0;
+	display: inline-block;
+	position: relative;
+}
+
+.project_image img{
+	display: block;
+	width: 100%;
+}
+
+.project_image img.ulearn{
+	display: block;
+	width: 100%;
+	margin-top: 58px;
+	margin-bottom: 75px;
+}
+
+.project_image img.robot{
+	display: block;
+	height: 225px;
+	width: auto;
+}
+
+.project_image img.youottawa{
+	display: block;
+	width: 100%;
+	margin-top: 48px;
+	margin-bottom: 65px;
+}
