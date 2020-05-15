@@ -10,6 +10,10 @@
 	position: relative;
 }
 
+.project_image:hover {
+	opacity: 0.3;
+}
+
 .project_image img{
 	display: block;
 	width: 100%;
@@ -28,9 +32,9 @@
 	width: auto;
 }
 
-.project_image img.youottawa{
+.project_image img.party_playlist{
 	display: block;
 	width: 100%;
-	margin-top: 48px;
-	margin-bottom: 65px;
+	margin-top: 20px;
+	margin-bottom: 15px;
 }
